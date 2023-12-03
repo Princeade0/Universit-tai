@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <title>University of AI</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"  alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="programs.html">PROGRAMS</a></li>
+              <li><a href="campuses.html">OUR SATELITE CAMPUS</a></li>
+              <li><a href="campuslife.html">CAMPUS LIFE</a></li>
+              <li><a href="contactus.html">CONTACT</a></li>
+          </ul>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+        <h1>Campus Life</h1>
+
+  </section>
+
+    <!-----------------Campus Life------------------------>
+
+    <section class="campuslife">
+      <p>Our Campus life is the vibrant hub where our students experiences, blending academics with social, cultural, and personal growth opportunities. Our students connect, engage in diverse activities, and foster a sense of community while developing crucial life skills beyond the classroom. From clubs to events, campus life cultivates a dynamic environment where learning transcends textbooks, shaping well-rounded individuals ready for the world beyond graduation.</p>
+
+      <div class="row">
+        <div class="campuslife-col" id="library">
+          <img src="images/libraryI.jpg" alt="library">
+          <h3>Library</h3>
+          <p>Our library is a treasure trove of knowledge, offering a wide range of resources to support students and faculty in their academic endeavors. From books to digital materials, it's a hub for research, study, and collaboration. Our library is a vital space where our community explores, learns, and grows academically.</p>
+        </div>
+
+  
+
+        <div class="campuslife-col" id="Sports">
+          <img src="images/softball.jpg" alt="Sports">
+          <h3>Sports</h3>
+          <p>Our library is a treasure trove of knowledge, offering a wide range of resources to support students and faculty in their academic endeavors. From books to digital materials, it's a hub for research, study, and collaboration. Our library is a vital space where our community explores, learns, and grows academically.</p>
+        </div>
+
+
+        <div class="campuslife-col" id="cafeteria">
+          <img src="images/cafeteria.jpg" alt="library">
+          <h3>Cafeteria</h3>
+          <p>Our library is a treasure trove of knowledge, offering a wide range of resources to support students and faculty in their academic endeavors. From books to digital materials, it's a hub for research, study, and collaboration. Our library is a vital space where our community explores, learns, and grows academically.</p>
+        </div>
+
+
+
+        <div class="campuslife-col" id="diversity">
+          <img src="images/diversity.jpg" alt="Diversity">
+          <h3>Our Unique diversity</h3>
+          <p>Our library is a treasure trove of knowledge, offering a wide range of resources to support students and faculty in their academic endeavors. From books to digital materials, it's a hub for research, study, and collaboration. Our library is a vital space where our community explores, learns, and grows academically.</p>
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+
+
+<!----------------JavaScript for Toggle Menu----------------------->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+
+    }
+
+    function hideMenu(){
+        navLinks.style.right="-200px";
+        
+    }
+ </script>
+    
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <title>University of AI</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"  alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="programs.html">PROGRAMS</a></li>
+              <li><a href="campuses.html">OUR SATELITE CAMPUS</a></li>
+              <li><a href="campuslife.html">CAMPUS LIFE</a></li>
+              <li><a href="contactus.html">CONTACT</a></li>
+          </ul>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+        <h1>Our Campuses</h1>
+
+  </section>
+
+    <!---------------Campus------------------->
+    <section class="campus">
+      <h1>Our Satelite Campuses</h1>
+      <p>Our satellite campuses are extensions of the main institution strategically located in different cities & regions . These campuses offer a range of academic programs and resources akin to the main campus but on a more localized scale. They provide convenient access to higher education for students who may not be able to attend the main campus, either due to geographical constraints or personal preferences. Our catellite campuses cater to specific regional needs or industries, offering specialized courses or research opportunities tailored to the local community. They create a more inclusive educational environment, fostering diversity and expanding the university's reach while maintaining the institution's academic standards and quality of education.</p>
+    
+      <div class="row">
+        <div class="campus-col"> 
+          <img src="images/berlin.jpg" alt="berlin campus">
+          <div class="layer">
+            <h3> BERLIN CAMPUS
+              <p>Wir sind ein Berlin</p>
+            </h3>
+          </div>
+    
+        </div>
+    
+        <div class="campus-col"> 
+          <img src="images/frankfurt.jpg" alt="berlin campus">
+          <div class="layer">
+            <h3> FRANKFURT CAMPUS
+              <p>Im Herzen von Europa ist die Welt zu Hause</p>
+            </h3>
+          </div>
+    
+        </div>
+    
+    
+        <div class="campus-col"> 
+          <img src="images/dortmund.jpg" alt="berlin campus">
+          <div class="layer">
+            <h3> DORTMOUND CAMPUS
+              <p>weniger sexy, mehr Erfolg</p>
+            </h3>
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    
+    </section>
+  
+
+
+
+
+
+         <!----------------Footer------------------------->
+       <section class="footer">
+          <h4> About Us</h4>
+          <p>Empowering academic growth through innovative resources and a thriving community.</p>
+          <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+
+           </div>
+           <p> Copyright <i class="fa-regular fa-copyright"></i> 2023 Design by princeade.</p>
+
+        </section>
+         
+
+
+
+
+      
+    <!-----------------Campus Life------------------------>
+   
+
+
+
+
+
+<!----------------JavaScript for Toggle Menu----------------------->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+
+    }
+
+    function hideMenu(){
+        navLinks.style.right="-200px";
+        
+    }
+ </script>
+    
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <title>University of AI</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"  alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="programs.html">PROGRAMS</a></li>
+              <li><a href="campuses.html">OUR SATELITE CAMPUS</a></li>
+              <li><a href="campuslife.html">CAMPUS LIFE</a></li>
+              <li><a href="contactus.html">CONTACT</a></li>
+          </ul>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+        <h1>Programs</h1>
+
+  </section>
+
+  <!------------ Programs ---------------->
+
+  
+<section class="Programs">
+    <h2>Programs We Offer </h2>
+     <p>We Offers various programs in all modern Technology sphere.</p>
+
+     <div class="row">
+       <div class="programs-col">
+           <h3> Foundation Level</h3>
+           <p>
+           Enrolling into our foundation-level courses prepares our prospective students, at the university for the academic journey filled with exploration and discovery. These courses serve as the cornerstone of higher education, offering an essential grounding in diverse subjects. They provide a broad introduction to various disciplines, paving the way for future specialization.
+           </p>
+
+
+
+       </div>
+
+       <div class="programs-col">
+         <h3> Under Graduate</h3>
+         <p>
+           Our undergraduate program at university of AI signifies the beginning of focused study in a chosen field. It's an immersive experience that cultivates expertise while nurturing critical thinking and practical skills. This journey of exploration and growth equips students not just with specialized knowledge but also with essential life skills, setting the stage for future careers and a lifelong passion for learning and innovation.
+         </p>
+
+
+
+     </div>
+
+
+
+     <div class="programs-col">
+       <h3> Graduate</h3>
+       <p>
+         Graduate enrollment signifies a focused commitment to specialized studies, research, and advanced skill development within a chosen field. It's a pivotal step towards deep expertise, fostering critical thinking, innovation, and leadership. This journey equips individuals to excel in their careers and contribute significantly to their fields of expertise.
+       </p>
+
+
+
+   </div>
+
+
+   <div class="programs-col">
+     <h3> Research</h3>
+     <p>
+     Research enrollment at university signifies a dedicated pursuit of discovery and innovation within a chosen field. It involves rigorous investigation, critical analysis, and the quest for groundbreaking contributions. This immersive experience cultivates advanced skills and knowledge, preparing individuals to drive significant advancements in their area of expertise.
+     </p>
+
+
+
+ </div>
+     </div>
+
+
+
+   </section>
+
+
+
+
+
+
+
+         <!----------------Footer------------------------->
+       <section class="footer">
+          <h4> About Us</h4>
+          <p>Empowering academic growth through innovative resources and a thriving community.</p>
+          <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+
+           </div>
+           <p> Copyright <i class="fa-regular fa-copyright"></i> 2023 Design by princeade.</p>
+
+        </section>
+         
+
+
+
+
+      
+    <!-----------------Campus Life------------------------>
+   
+
+
+
+
+
+<!----------------JavaScript for Toggle Menu----------------------->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+
+    }
+
+    function hideMenu(){
+        navLinks.style.right="-200px";
+        
+    }
+ </script>
+    
+</body>
+</html>

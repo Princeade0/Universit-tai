@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <title>University of AI</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"  alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="programs.html">PROGRAMS</a></li>
+              <li><a href="campuses.html">OUR SATELITE CAMPUS</a></li>
+              <li><a href="campuslife.html">CAMPUS LIFE</a></li>
+              <li><a href="contactus.html">CONTACT</a></li>
+          </ul>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+        <h1>Contact Us</h1>
+
+  </section>
+
+
+<!----------------Contact US------------------------->
+
+<section class="contactus">
+  <h1> For Enrollment & Other Inquiry</h1>
+  <a href="" class="hero-btn">Contact Us</a>
+
+</section>
+
+
+
+ <section class="location">
+         
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25292.603173661148!2d7.326786002678212!3d51.24769049094545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1701447329223!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+ </section>
+
+ <section class="contact-details">
+       
+      <div class="row">
+        <div class="details-col">
+          <div>
+            <i class="fa-sharp fa-solid fa-house"></i>
+            <span>
+              <h5>Spreeler Weg 47, </h5>
+              <p>58256 Ennepetal.NRW.Deutschland</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <span>
+              <h5>+1 4902-237-3478</h5>
+              <p>Mon.- Sat. <br/>10:00 Uhr bis 17:00 Uhr</p>
+              
+            </span>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-envelope"></i>
+            <span>
+              <h5>E-mail us:</h5>
+              <p>info@universityai.de</p>
+              <p> E-mail us for more inquiry</p>
+              
+            </span>
+          </div>
+
+          <div class="details-col">
+            <form action="form-handler.php" method="post">
+              <input type="text"  name="name"  placeholder="Enter your name" required>
+              <input type="text" name="email"   placeholder="Enter your email Address" required>
+              <input type="text"  name="Course"  placeholder="Course" required>
+              <textarea  rows="8"  name="message" placeholder="Message" required></textarea>
+              <button type="submit" class="hero-btn red-btn"> Send Message</button>
+
+            </form>
+            
+        </div>
+
+
+
+      </div>
+  
+
+
+ </section>
+
+
+
+  <!----------------Footer------------------------->
+  <section class="footer">
+    <h4> About Us</h4>
+    <p>Empowering academic growth through innovative resources and a thriving community.</p>
+    <div class="icons">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+
+     </div>
+     <p> Copyright <i class="fa-regular fa-copyright"></i> 2023 Design by princeade.</p>
+
+  </section>
+
+
+
+
+  
+
+
+
+
+<!----------------JavaScript for Toggle Menu----------------------->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+
+    }
+
+    function hideMenu(){
+        navLinks.style.right="-200px";
+        
+    }
+ </script>
+    
+</body>
+</html>
